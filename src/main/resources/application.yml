@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: ${mongodb}
+
+server:
+  port: 8000
+
+web3j:
+  client-address: ${endpoint}
